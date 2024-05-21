@@ -1,0 +1,113 @@
+@charset "UTF-8";
+body {
+  background-color: rgb(86, 172, 143);
+  display: grid;
+  place-content: center;
+  place-items: center;
+}
+.container {
+  width: 400px;
+  margin: 30px 0px;
+  background-color: rgb(247, 245, 235);
+  display: grid;
+  place-content: center;
+  place-items: center;
+  border-radius: 5%;
+  overflow: hidden;
+  box-shadow: 0px 10px 10px -6px  rgb(59, 122, 101);
+}
+
+header {
+  width: 400px;
+  background-color: rgb(101, 211, 175);
+}
+
+footer {
+  width: 400px;
+  background-color: rgb(101, 211, 175);
+  display: grid;
+  place-content: center;
+  place-items: center;
+  color: #fef6f6;
+  font-weight: bold;
+}
+
+h1 {
+  color: #fef6f6;
+  text-align: center;
+}
+h2 {
+  color: #686868;
+  margin: 20px 0 0 0 ;
+  font-family: serif;
+}
+
+p {
+  color: #686868;
+}
+.TaskListField {
+  background-color: #ffffff;
+  width: 310px;
+  margin: 10px 0 20px 0;
+  border-style: double;
+  border-color: #238f2a;
+  
+}
+.TaskListField_ol {
+  color: #858585;
+  display: block;
+  list-style: none;
+	display: inline-block;
+  text-align: left;
+}
+
+.TaskListField_li {
+  margin: 5px;
+  color: #858585;
+  font-weight: bold;
+  font-family: serif;
+}
+
+.TaskInputForm {
+  width: 310px;
+  margin: 0 0 10px 0;
+  font-family: serif;
+  display: grid;
+  place-content: center;
+  place-items: center;
+}
+
+.InputField {
+  width: 310px;
+  margin: 0 0 10px 0;
+}
+
+.SubmitButton {
+  width: 160px;
+  margin: 0 0 20px 0;
+  background: rgb(102, 209, 139);
+  color: #ffffff;
+  border-color: rgb(69, 170, 69);
+}
+
+.SubmitButton:hover, .SubmitButton:focus {
+  margin: 0 0 20px 0;
+  background: rgb(88, 174, 116);
+  color: #ffffff;
+  border-color: rgb(69, 170, 69);
+}
+
+.DeleteButton {
+  width: 160px;
+  margin: 0 0 20px 0;
+  background: rgb(255, 138, 138);
+  color: #ffffff;
+  border-color: red;
+}
+
+.DeleteButton:hover, .DeleteButton:focus {
+  margin: 0 0 20px 0;
+  background: rgb(206, 104, 104);
+  color: #ffffff;
+  border-color: red;
+}
